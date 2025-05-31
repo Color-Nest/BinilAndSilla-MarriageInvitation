@@ -104,3 +104,36 @@ body {
 .invite-buttons{
     padding: 0.5rem 1rem;
 }
+.wedding-heading {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.wedding-heading h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.wedding-heading .subtitle {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #1d1d1d;
+}
+
+.btn {
+  transition: transform 0.1s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
+}
+
+/* Hover effect: slight scale up and shadow */
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Click (active) effect: slight scale down and inset shadow */
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+}
